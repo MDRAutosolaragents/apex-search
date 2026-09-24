@@ -1,0 +1,53 @@
+# Contributing
+
+Thanks for helping improve ApexSearch.
+
+## Scope
+
+This repository is intentionally focused on the portable skill and its reference materials. Contributions should stay aligned with evidence-led search visibility guidance, technical SEO, AEO, GEO, structured data, and verification quality.
+
+## Before you contribute
+
+- Use the smallest possible change.
+- Keep claims grounded in evidence and explicitly distinguish facts, inferences, estimates, and unknowns.
+- Do not add fabricated rankings, metrics, traffic claims, citations, reviews, or bot behavior claims.
+- Keep private credentials, client data, exports, and API tokens out of the repository.
+
+## Suggested workflow
+
+1. Fork the repository or create a feature branch.
+2. Keep the change scoped to a single improvement or issue.
+3. Update the relevant documentation or reference files.
+4. Run the validation checks described below.
+5. Open a pull request with a clear summary and evidence for the change.
+
+## Quality standards
+
+- Use clear, factual language.
+- Prefer precise, verifiable guidance over generic SEO claims.
+- Maintain consistent terminology across the skill and references.
+- Keep citations and evidence requirements intact.
+- Preserve the repository’s “evidence first” operating contract.
+
+## Validation
+
+Before opening a pull request, run the project validation workflow locally if possible:
+
+```bash
+npx markdownlint-cli2 "**/*.md"
+```
+
+If the repository is used in a host system that has a skill validation step, make sure the change still loads correctly through the normal installation flow.
+
+## Pull request checklist
+
+- [ ] The change is scoped and explained clearly.
+- [ ] The content remains evidence-led and non-deceptive.
+- [ ] No private data, secrets, or credentials were added.
+- [ ] Markdown remains valid and readable.
+- [ ] The change does not weaken the operating contract or audit standards.
+
+## Reporting problems
+
+Open an issue describing the problem, the affected file, the expected behavior, and any evidence available.
+
